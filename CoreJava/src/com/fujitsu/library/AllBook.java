@@ -4,7 +4,7 @@ public class AllBook {
 
 	private String Title, Author, Isbn, Genre;
 	
-	public void saveBook(String Title, String Author, String Isbn, String Genre) 
+	public void addBook(String Title, String Author, String Isbn, String Genre) 
 	{
 		this.Title = Title;
 		this.Author = Author;
