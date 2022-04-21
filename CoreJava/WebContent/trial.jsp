@@ -65,9 +65,8 @@ String bookTitle = request.getParameter("title");
 String bookAuthor = request.getParameter("author");
 String bookIsbn = request.getParameter("ISBN");
 String bookGenre = request.getParameter("Genre");
+
 BookADV newBooks = new BookADV();
-//newBooks.saveBooks(bookTitle, bookAuthor, bookIsbn, bookGenre);
-//out.println(newBooks.viewBooks());
 AllBook nBook = new AllBook();
 
 nBook.saveBook(bookTitle,bookAuthor,bookIsbn,bookGenre);
