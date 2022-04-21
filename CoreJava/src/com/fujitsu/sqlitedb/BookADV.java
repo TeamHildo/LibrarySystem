@@ -7,7 +7,7 @@ public class BookADV {
 		 String result="";
 		
 	
-	public int saveBooks(AllBook books) 
+	public int saveBook(AllBook books) 
 	{
         //if ito yong gagamitin.. nakakapg add sa database
 		/*if(Title!=null && Author!=null && Isbn!=null && Genre!=null) 
