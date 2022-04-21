@@ -69,7 +69,7 @@ String bookGenre = request.getParameter("Genre");
 BookADV newBooks = new BookADV();
 AllBook nBook = new AllBook();
 
-nBook.saveBook(bookTitle,bookAuthor,bookIsbn,bookGenre);
-newBooks.saveBooks(nBook);
+nBook.addBook(bookTitle,bookAuthor,bookIsbn,bookGenre);
+newBooks.saveBook(nBook);
 
 %>
