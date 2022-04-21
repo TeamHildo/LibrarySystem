@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<title>Login Page</title>
+</head>
+<body>
+<form action="AllBookInput.java" method="post">
+  
+  <div class="imgcontainer">
+    <img src="image/avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <input type="text" placeholder="Title" name="title" required id="title">
+     <input type="text" placeholder="Author" name="author" required id="author">
+     <input type="text" placeholder="ISBN" name="ISBN"  id="ISBN">
+		<select name="Genre" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+		  <option selected>Genre</option>
+		  <option value="Literary Fiction">Literary Fiction</option>
+		  <option value="Horror">Horror</option>
+		  <option value="Fantasy">Fantasy</option>
+		  <option value="Classics">Classics</option>
+		  <option value="Detective and Mystery">Detective and Mystery</option>
+		  <option value="Science Fiction">Science Fiction</option>
+		  </select>
+    <button type="submit">Submit</button>
+    
+  </div>
+
+</form>
+        
+
+</body>
+</html>
